@@ -1,4 +1,6 @@
 
+import 'package:coffee_app_ui/screens/homescreen/widgets/BrewButton.dart';
+import 'package:coffee_app_ui/screens/homescreen/widgets/NameAndTime.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -37,7 +39,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
   void startBrew(){
-    
+
     final snackBar = SnackBar(content: Text('Yay! A SnackBar!'));
 
 // Find the Scaffold in the widget tree and use it to show a SnackBar.
@@ -65,50 +67,17 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               children: <Widget>[
                 Container(
-                  margin: EdgeInsets.only(top: 35, left: 20),
-                  alignment: Alignment.centerLeft,
-                  child: Icon(
-                    Icons.settings,
-                    color: Colors.white,
-                    size: 24,
+                  height: 25
+                ),
+                NameAndTime(name: "Tim"),
+                Container(
+                  height: 25
+                ),
+                BrewButton()
 
-                  ),
-                ),
-                Column(
-                  children: <Widget>[
-                    Container(
-                      alignment: Alignment.centerLeft,
-                      margin: EdgeInsets.only(left: 20, top: 20),
-                      child: Text("Good Morning Tim",
-                      style: TextStyle(
-                        color: Theme.of(context).primaryColor,
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
-                      ),
-                      ),
-                    ),
-                    Container(
-                      alignment: Alignment.centerLeft,
-                      margin: EdgeInsets.only(left: 20),
-                      child: Text("Tuesday, March 29th",
-                        style: TextStyle(
-                          color: Theme.of(context).primaryColor,
-                          fontSize: 18,
-                        ),
-                      ),
-                    ),
-                    Container(
-                      alignment: Alignment.centerLeft,
-                      margin: EdgeInsets.only(left: 20),
-                      child: Text("6:34am PST",
-                        style: TextStyle(
-                          color: Theme.of(context).primaryColor,
-                          fontSize: 18,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
+              ],
+            )
+            /*
                 Container(
                   margin: EdgeInsets.only(top: 50),
                   width: 210,
@@ -170,7 +139,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 100,
                 )
               ],
-            ),
+            ),*/
           ),
         )
     );
