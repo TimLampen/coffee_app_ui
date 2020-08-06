@@ -37,6 +37,6 @@ Definetly an area that I can improve upon, but tried to make it seem as 'light' 
 
 <table><tr>
 <td> <img src="https://scontent.fyvr3-1.fna.fbcdn.net/v/t1.15752-9/116742769_1592040800962919_662927854934488159_n.png?_nc_cat=101&_nc_sid=b96e70&_nc_ohc=XRnVrOROc7cAX-Jv3kr&_nc_ht=scontent.fyvr3-1.fna&oh=885baf81ac379fb8e1d2c9a22719b302&oe=5F4F889C" alt="App homepage" style="width: 10x;"/> </td>
-<td> <img src="https://scontent.fyvr3-1.fna.fbcdn.net/v/t1.15752-9/116838230_659455578255694_2992862443373688604_n.png?_nc_cat=110&_nc_sid=b96e70&_nc_ohc=-hxZycBL1dcAX_4aaQp&_nc_ht=scontent.fyvr3-1.fna&oh=a244ca53afb3a24a4a7adfca6c4904f9&oe=5F5111B6" alt="App screen once the 'brew' button has been pressed" style="width: 10px;"/> </td>
+<td> <img src="https://scontent.fyvr3-1.fna.fbcdn.net/v/t1.15752-9/115740803_670893356854081_5445788336574420717_n.png?_nc_cat=104&_nc_sid=b96e70&_nc_ohc=3jxHrmlPRFoAX_C8SZZ&_nc_ht=scontent.fyvr3-1.fna&oh=5db30116e3d35aabb073daf3baabf131&oe=5F508128" alt="App screen once the 'brew' button has been pressed" style="width: 10px;"/> </td>
 </tr></table>
 
